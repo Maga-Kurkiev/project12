@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-          // цикл For
-          // for (начало    ;условие; шаг)
-        //   for (let i = 0; i > 10; i++) {
-        //     console.log(i);
+      // цикл For......
+      // for (начало    ;условие; шаг)
+      //   for (let i = 0; i > 10; i++) {
+      //     console.log(i);
 
-            
-        //   }
-        //   for (let i = 10; i > 0; i--) {
-        //     console.log(i);
-        //   
+      //   }
+      //   for (let i = 10; i > 0; i--) {
+      //     console.log(i);
+      //
+      // Цикл While......
+      // let a = 30;
+      // while ( a > 0) {
+      //   console.log(a);
 
-          let a = 30;
-          while ( a > 0) {
-            console.log(a);
+      //   i--
 
-            i--
-            
+      // }
+
+      // цикл Do While.....
+
+      // let i = 20
+      // do {
+      //   console.log(i);
+      //   i--;
+
+      // }while (i > 0);
+
+      //Конструкция for. Оператор break и continue....
+      // for ( let i = 20; i => 0; i--) {
+      //   console.log(i);
+      //   if (i == 10) {
+      //     break; // Код  остановится на 10
+      //   }
+
+      // }
+      // Переход к следующей итерации: Continue
+      // for (let i = 30; i > 0; i--) {
+
+      //   if (i == 18 || i == 21 || i == 25 || i == 28 ) {
+      //     continue;
+      //   }
+      //   console.log(i);
+      // }
+
+      let i = 0;
+      while (i < 10) {
+        console.log(i);
+        {
+          if (i == 5) {
+            break;
           }
+        }
+
+        i++;
+      }
     </script>
-</body>
+  </body>
 </html>
